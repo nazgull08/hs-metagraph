@@ -1,0 +1,34 @@
+{ "meta_vertecies": [
+      {
+        "id": 1,
+        "payload": "Semesters",
+        "metagraph": {
+          "meta_vertecies": [
+            2,
+            3
+          ],
+          "meta_edges": []
+        }
+      },
+      {
+        "id": 2,
+        "payload": "Sem 1",
+        "metagraph": null
+      },
+      {
+        "id": 3,
+        "payload": "Sem 2",
+        "metagraph": null
+      }
+  ],
+  "meta_edges": [
+  {
+    "id": 4,
+    "payload": "Order",
+    "vertex_start": 2,
+    "vertex_end": 3,
+    "metagraph": null,
+    "oriented": true
+  }
+  ]
+}

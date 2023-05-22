@@ -1,0 +1,55 @@
+cabal-version:      2.4
+name:               hs-metagraph
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+-- license:
+author:             nazgull08
+maintainer:         nazgull08@protonmail.com
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+executable hs-metagraph 
+    main-is:          Main.hs
+
+    other-modules: Functions
+                  ,Types
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+    default-extensions:
+                      DataKinds
+                      DeriveDataTypeable
+                      DeriveGeneric
+                      FlexibleInstances
+                      LambdaCase
+                      MultiParamTypeClasses
+                      OverloadedStrings
+                      RecordWildCards
+                      ScopedTypeVariables
+                      TemplateHaskell
+                      TypeFamilies
+                      TypeOperators
+                      ImportQualifiedPost
+
+    build-depends:    aeson
+                      ,base 
+                      ,bytestring
+                      ,text
+                      ,time
+                      ,unordered-containers
+
+    hs-source-dirs:   src
+    default-language: Haskell2010
