@@ -24,7 +24,7 @@ extra-source-files: CHANGELOG.md
 executable hs-metagraph 
     main-is:          Main.hs
 
-    other-modules: Functions
+    other-modules: TypesRec
                   ,Types
 
     -- Modules included in this executable, other than Main.

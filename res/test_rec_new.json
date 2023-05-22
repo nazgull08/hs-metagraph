@@ -1,0 +1,2 @@
+{"rmeta_edges":
+  [{"merid":5,"mermetagraph":null,"meroriented":true,"merpayload":"TestEdge5","mervertex_end":4,"mervertex_start":1}],"rmeta_vertecies":[{"mvrid":1,"mvrmetagraph":null,"mvrpayload":"Test1"},{"mvrid":2,"mvrmetagraph":{"rmeta_edges":[{"merid":7,"mermetagraph":null,"meroriented":true,"merpayload":"TestEdge7","mervertex_end":6,"mervertex_start":2}],"rmeta_vertecies":[{"mvrid":6,"mvrmetagraph":null,"mvrpayload":"Test6"}]},"mvrpayload":"Test2"},{"mvrid":3,"mvrmetagraph":null,"mvrpayload":"Test3"},{"mvrid":4,"mvrmetagraph":null,"mvrpayload":"Test4"}]}
