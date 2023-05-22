@@ -30,7 +30,10 @@ deriveJSON defaultOptions{fieldLabelModifier = drop 2} ''Metavertex
 data Metaedge = Metaedge 
   { meid :: Int
   , mepayload :: T.Text
+  , mevertex_start :: Int 
+  , mevertex_end :: Int
   , memetagraph :: Maybe Metalinks
+  , meoriented :: Bool
   } deriving (Show, Eq)
 
 deriveJSON defaultOptions{fieldLabelModifier = drop 2} ''Metaedge

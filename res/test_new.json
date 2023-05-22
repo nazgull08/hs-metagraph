@@ -1,0 +1,1 @@
+{"meta_vertecies":[{"id":1,"payload":"Test1","metagraph":null},{"id":2,"payload":"Test2","metagraph":{"meta_vertecies":[3,4],"meta_edges":[]}},{"id":3,"payload":"Test3","metagraph":{"meta_vertecies":[1],"meta_edges":[]}},{"id":4,"payload":"Test4","metagraph":null}],"meta_edges":[{"id":5,"payload":"TestEdge5","vertex_start":1,"vertex_end":4,"metagraph":null,"oriented":true}]}
